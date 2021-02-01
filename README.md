@@ -2,14 +2,8 @@
 Demonstration of jump
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html"; charset=utf-8">
-    <script>
-                                                                       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/JumpDemo.json", {onProgress: UnityProgress});
-                                                                       </script>
-  </head>
   <body>
+    <iFrame src=https://github.com/Emil-H-Uhlin/platformer_character title="Platforming jump demo"></iFrame>
     <div id="unityContainer" style="width: 960px; height: 600px"></div>
   </body>
 </html>
