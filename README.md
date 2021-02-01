@@ -1,8 +1,2 @@
-# platformer_jumpDemo
-Demonstration of jump
-
-<html>
-    <body>
-        <iframe src=https://emil-h-uhlin.github.io/platformer_jumpDemo/" title=Platforming jump demo"></iframe>
-    </body>
-</html
+# Jump demo
+## Demonstration of a versitile jumping implementation in a 2D-platformer-game.
