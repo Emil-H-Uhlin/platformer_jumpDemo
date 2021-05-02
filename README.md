@@ -16,9 +16,11 @@ In my implementation I use Unity's ScriptableObject class to create serialized J
 
 My implementation allows for two main types of jumps:
 - Linear jumps
+
 ![linear jump](https://user-images.githubusercontent.com/45757491/116815186-b6f85100-ab5c-11eb-8e65-50fe3d4f5857.gif)
 
 - Non-linear (or quadratic) jumps:
+
 ![quadratic jump](https://user-images.githubusercontent.com/45757491/116815226-e018e180-ab5c-11eb-806f-1ea38536748e.gif)
 
 
