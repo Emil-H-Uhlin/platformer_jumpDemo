@@ -15,14 +15,23 @@ It is simply not enough to add force upwards and call it a day. A jump that "loo
 In my implementation I use Unity's ScriptableObject class to create serialized JumpSettings. These can be used for different levels, areas or characters. 
 
 My implementation allows for two main types of jumps:
-- Linear jumps
-
+<details open>
+  <summary>Linear jumps:</summary>
+  
 ![linear jump](https://user-images.githubusercontent.com/45757491/116815186-b6f85100-ab5c-11eb-8e65-50fe3d4f5857.gif)
+</details>
 
-- Non-linear (or quadratic) jumps:
-
+<details open>
+<summary>Non-linear (or quadratic) jumps:</summary>
+  
 ![quadratic jump](https://user-images.githubusercontent.com/45757491/116815226-e018e180-ab5c-11eb-806f-1ea38536748e.gif)
+</details>
+
+I also implemented a fully customizable jump for the purposes of this demo, in which the following properties can be changed: 
+- <b>Jump height</b> <i>(full jump height)</i>
+- <b>Minimum jump height</b> <i>(which allows for the player to release the jump key to fall to interrupt the jump)</i>
+- <b>Up-time</b> <i>(the duration of a complete jump)</i>
+- <b>Hover-time</b> <i>(the duration the character can remain at the max jump height by holding the jump button)</i>
 
 
-, non-linear (or quadratic) jumps with pre-defined <i>jump height</i>, as well as <i>minimum jump height</i> - allowing for shorter jumps with release of the jump-key. I also implemented a variable for <i>up-time</i> that defines how <i>long</i> it takes for the character to get to the max height. There's also an implemented <i>hover-time</i> variable that defines for how long the player can hold the jump key at max height to keep hovering. <br></br>
-
+https://user-images.githubusercontent.com/45757491/116815732-266f4000-ab5f-11eb-8099-8608ac8f6308.mp4
