@@ -14,9 +14,13 @@ It is simply not enough to add force upwards and call it a day. A jump that "loo
 ## Implementation
 In my implementation I use Unity's ScriptableObject class to create serialized JumpSettings. These can be used for different levels, areas or characters. 
 
-My implementation allows for linear:
-
+My implementation allows for two main types of jumps:
+- Linear jumps
 ![linear jump](https://user-images.githubusercontent.com/45757491/116815186-b6f85100-ab5c-11eb-8e65-50fe3d4f5857.gif)
+
+- Non-linear (or quadratic) jumps:
+![quadratic jump](https://user-images.githubusercontent.com/45757491/116815226-e018e180-ab5c-11eb-806f-1ea38536748e.gif)
+
 
 , non-linear (or quadratic) jumps with pre-defined <i>jump height</i>, as well as <i>minimum jump height</i> - allowing for shorter jumps with release of the jump-key. I also implemented a variable for <i>up-time</i> that defines how <i>long</i> it takes for the character to get to the max height. There's also an implemented <i>hover-time</i> variable that defines for how long the player can hold the jump key at max height to keep hovering. <br></br>
 
