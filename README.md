@@ -14,7 +14,7 @@ It is simply not enough to add force upwards and call it a day. A jump that "loo
 ## Implementation
 In my implementation I use Unity's ScriptableObject class to create serialized JumpSettings. These can be used for different levels, areas or characters. 
 
-My implementation allows for two main types of jumps:
+My implementation allows for two main types of jumps (bear in mind they look very similar due to low framerate):
 <details open>
   <summary>Linear jumps:</summary>
   
