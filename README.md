@@ -6,7 +6,7 @@ The purpose of this project was to create and demonstrate a jumping script that 
 
 In this implementation I've focused on <b>reusability</b> and <b>modifiability</b> (which further strengthens <i>reusability</i>).
 
-A playable <b>browser demo</b> is available at <a href="https://emil-h-uhlin.github.io/platformer_jumpDemo/" title="Playable demo">emil-h-uhlin.github.io/platformer_jumpDemo</a>.
+A playable <b>browser demo</b> is available at <a href="https://emil-h-uhlin.github.io/reusable-platformer-jump/" title="Playable demo">emil-h-uhlin.github.io/reusable-platformer-jump</a>.
 
 ## Background
 It is simply not enough to add force upwards and call it a day. A jump that "looks" good (or realistic) does not necessarily "feel" good. Relying on forces makes designer input difficult since a value of say <i>17.5 units</i> (which is the default in the demo) doesn't quite describe how high, how far or for how long the character will be jumping. Every value needs to be tested. Relying on forces may also result in inconsistent jumps, as any number of forces can affect the character at any given time. 
